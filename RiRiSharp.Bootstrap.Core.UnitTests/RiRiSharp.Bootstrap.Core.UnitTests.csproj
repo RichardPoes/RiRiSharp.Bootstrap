@@ -31,5 +31,29 @@
     <ItemGroup>
         <ProjectReference Include="..\RiRiSharp.Bootstrap.Core\RiRiSharp.Bootstrap.Core.csproj"/>
     </ItemGroup>
+  
+    <ItemGroup>
+      <AdditionalFiles Include="Content\Abbreviations\Abbreviation.razor" />
+      <AdditionalFiles Include="Content\Blockquotes\Blockquote.razor" />
+      <AdditionalFiles Include="Content\Blockquotes\BlockquoteFooter.razor" />
+      <AdditionalFiles Include="Content\DisplayHeadings\DisplayHeading.razor" />
+      <AdditionalFiles Include="Content\Figures\Figure.razor" />
+      <AdditionalFiles Include="Content\Figures\FigureCaption.razor" />
+      <AdditionalFiles Include="Content\Headings\VirtualHeading.razor" />
+      <AdditionalFiles Include="Content\Images\Image.razor" />
+      <AdditionalFiles Include="Content\LeadParagraphs\LeadParagraph.razor" />
+      <AdditionalFiles Include="Content\Lists\InlineList.razor" />
+      <AdditionalFiles Include="Content\Lists\InlineListItem.razor" />
+      <AdditionalFiles Include="Content\Lists\UnstyledList.razor" />
+      <AdditionalFiles Include="Content\Tables\Table.razor" />
+      <AdditionalFiles Include="Content\Tables\TableBody.razor" />
+      <AdditionalFiles Include="Content\Tables\TableData.razor" />
+      <AdditionalFiles Include="Content\Tables\TableHead.razor" />
+      <AdditionalFiles Include="Content\Tables\TableRow.razor" />
+      <AdditionalFiles Include="Content\TextDecorations\Marked.razor" />
+      <AdditionalFiles Include="Content\TextDecorations\Small.razor" />
+      <AdditionalFiles Include="Content\TextDecorations\Striketrough.razor" />
+      <AdditionalFiles Include="Content\TextDecorations\Underline.razor" />
+    </ItemGroup>
 
 </Project>
